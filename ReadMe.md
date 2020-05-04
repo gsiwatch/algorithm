@@ -5,3 +5,10 @@ To test these out a person can do one of the following:
     for example:
         1. https://repl.it/languages/babel
         
+Rules of Big-O Notation:
+The goal of algorithum analysis is to understand the algorithm's efficiency by calculating f(n). However, it can be challenging to calculate f(n). Big-O notation provides some fundamental rules that help developres compute for f(n).
+
+1. Coefficient rules
+2. Sum rules
+3. product rule
+4. polynomial rule
