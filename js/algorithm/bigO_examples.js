@@ -87,11 +87,17 @@ const addNumbersSecondWay = (n) => {
      * write the explanation here 
      */
 }
-// for this time complexity will be O(k) where k is a constant
+// for this time complexity will be O(1)
 
 /**
  * what does better actually means?
  *     1. is it how faster the code is
  *     2. is about the code takes less memory
- *     3. is the code more readable
+ *     3. is the code more reada ble
+ * 
+ * I think focus has to more writing more efficient code but at the same 
+ * time it shouldn't be zibberish
+ * 
+ * in js if we want to check the performance of the function we can 
+ * use performance.now()
  */
