@@ -59,3 +59,39 @@ const someFunc = (n) => { // this is infinite loop
     }
 }
 // therefore O(infinite);
+
+/**
+ * Adding some more reading to it
+ *      Big O notation: 
+ *      some math: 
+ *        The need for this: why we care about it
+ *        what is time complexity
+ *        what is space complexity
+ *           
+ */
+
+// exercise add n numbers 
+const addNumbers = (n) => {
+    let total = 0;
+    for(let i=0; i<=n; i++) {
+        total += i;
+    }
+    return total;
+}
+// time complexity for this is O(n)
+
+// another solution of adding the numbers
+const addNumbersSecondWay = (n) => {
+    return n * (n + 1)/2;
+    /**
+     * write the explanation here 
+     */
+}
+// for this time complexity will be O(k) where k is a constant
+
+/**
+ * what does better actually means?
+ *     1. is it how faster the code is
+ *     2. is about the code takes less memory
+ *     3. is the code more readable
+ */
